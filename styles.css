@@ -1,0 +1,62 @@
+/* all pages */
+* {
+   text-decoration: none;
+   background-color: #FFF9E5;
+}
+h1{
+   color: gold;
+   font-weight: bold;
+}
+/* index page */
+#main-gif {
+   display: inline;    
+    border: solid gold;
+    margin: auto;
+}
+body {
+   text-align: center;
+}
+#recipes {
+   font-size: 17px;
+   display: block;
+   border: 5px double gold;
+     border-radius: 5px;
+   margin: 10px 380px auto 380px;
+   height: 130px;
+}
+/* other pages style */
+.parent {
+    font-size: 17px;
+    border: 4px solid gold;
+      border-top: 1px;
+      border-bottom: 1px;
+      border-radius: 17px;
+    background-color: #FAF1D3;
+    padding-left: 16%;
+    padding-right: 16%;
+    margin: auto 348px auto 348px;
+}
+.image {
+    display: flex;
+    border: solid gold;
+    margin: auto;
+    width: 285.5px;
+    height: 400px;
+}
+.image1 {
+    display: flex;
+    border: solid gold;
+    margin: auto;
+    width: 283px;
+    height: 283px;
+}
+.ingredients, .instructions, .notes{
+    list-style-position: inside;
+    text-align: left;
+    display: block;
+    border: 4px double gold;
+     border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto 350px 11px 350px;
+}
